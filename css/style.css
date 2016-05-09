@@ -1,0 +1,121 @@
+#container {
+	width: 1260px;
+	height: 889px;
+	margin: auto;
+}
+   
+nav {
+    font-family: Arial;
+    width: 100%;
+	height: 100px;
+	background-color: #b1f20c;
+	border-top-color: black;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a:link, a:visited {
+	width: 40px; 
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	margin: 28px;
+	position: relative;
+	bottom: 42px;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+	color: white;
+}
+   
+#first {
+    width: 460px;
+    height: 400px;
+	background-color: #b1f20c;
+    margin: 10px;
+    float:left;
+	opacity: 1;
+}
+
+#first:hover {
+	opacity: 0.6;
+}
+
+#second {
+    width: 240px;
+	height: 400px;
+	background-color: #b1f20c;
+	margin: 10px;
+	float: left;
+	opacity: 1;
+}
+
+#second:hover {
+	opacity: 0.6;
+}
+
+#third {
+    width: 240px;
+	height: 400px;
+	background-color: #b1f20c;
+	margin: 10px;
+	float: left;
+	opacity: 1;
+}
+
+#third:hover {
+	opacity: 0.6;
+}
+
+#fourth {
+    width: 240px;
+    height: 400px;
+    background-color: #b1f20c;
+	margin: 10px;
+	float: left;
+	opacity: 1;
+}
+
+#fourth:hover {
+	opacity: 0.6;
+}
+
+#fifth {
+    width: 220px;
+	height: 300px;
+    background-color: #b1f20c;
+	margin: 10px;
+    float: left;
+	clear: both;
+	opacity: 1;
+}
+
+#fifth:hover {
+    opacity: 0.6;
+}
+
+h1 {
+    font-size: 25px;
+	color: white;
+	font-family: Arial;
+	text-align: center;
+}
+
+p {
+    font-size: 11px;
+	color: black;
+	font-family: Arial;
+	text-align: center;
+}
